@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B8DFF06D217F3C5400B1B4ED /* SSRadioButtonsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DFF06B217F3C5400B1B4ED /* SSRadioButtonsController.swift */; };
+		B8DFF06E217F3C5400B1B4ED /* SSRadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DFF06C217F3C5400B1B4ED /* SSRadioButton.swift */; };
+		B8DFF070217F519400B1B4ED /* ExpertHelp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8DFF06F217F519400B1B4ED /* ExpertHelp.storyboard */; };
 		B8FD14BD2177299D0019FAA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FD14BC2177299D0019FAA0 /* AppDelegate.swift */; };
 		B8FD14C12177299D0019FAA0 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = B8FD14C02177299D0019FAA0 /* Actions.sks */; };
 		B8FD14C32177299D0019FAA0 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FD14C22177299D0019FAA0 /* GameScene.swift */; };
@@ -19,6 +22,11 @@
 		B8FD14F5217739D30019FAA0 /* sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = B8FD14F4217739D30019FAA0 /* sprites.atlas */; };
 		B8FD14F72178AFB20019FAA0 /* Texture.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FD14F62178AFB20019FAA0 /* Texture.swift */; };
 		B8FD14F92178B7FF0019FAA0 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FD14F82178B7FF0019FAA0 /* Character.swift */; };
+		B8FD14FB2179D9CE0019FAA0 /* PathFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FD14FA2179D9CE0019FAA0 /* PathFinder.swift */; };
+		B8FD14FD2179DAA60019FAA0 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FD14FC2179DAA60019FAA0 /* Global.swift */; };
+		B8FD1502217C39500019FAA0 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8FD1501217C39500019FAA0 /* Login.storyboard */; };
+		B8FD1504217C3A250019FAA0 /* InformationSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FD1503217C3A250019FAA0 /* InformationSettingViewController.swift */; };
+		B8FD1507217C8ACF0019FAA0 /* CigaretteAddictionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FD1506217C8ACF0019FAA0 /* CigaretteAddictionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +47,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B8DFF06B217F3C5400B1B4ED /* SSRadioButtonsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSRadioButtonsController.swift; sourceTree = "<group>"; };
+		B8DFF06C217F3C5400B1B4ED /* SSRadioButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSRadioButton.swift; sourceTree = "<group>"; };
+		B8DFF06F217F519400B1B4ED /* ExpertHelp.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ExpertHelp.storyboard; sourceTree = "<group>"; };
 		B8FD14B92177299D0019FAA0 /* QuitCatIsoGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuitCatIsoGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8FD14BC2177299D0019FAA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B8FD14C02177299D0019FAA0 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
@@ -57,6 +68,11 @@
 		B8FD14F4217739D30019FAA0 /* sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = sprites.atlas; sourceTree = "<group>"; };
 		B8FD14F62178AFB20019FAA0 /* Texture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Texture.swift; sourceTree = "<group>"; };
 		B8FD14F82178B7FF0019FAA0 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		B8FD14FA2179D9CE0019FAA0 /* PathFinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathFinder.swift; sourceTree = "<group>"; };
+		B8FD14FC2179DAA60019FAA0 /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		B8FD1501217C39500019FAA0 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		B8FD1503217C3A250019FAA0 /* InformationSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationSettingViewController.swift; sourceTree = "<group>"; };
+		B8FD1506217C8ACF0019FAA0 /* CigaretteAddictionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CigaretteAddictionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +100,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B8DFF06A217F3C5400B1B4ED /* SSRadioButtonController */ = {
+			isa = PBXGroup;
+			children = (
+				B8DFF06B217F3C5400B1B4ED /* SSRadioButtonsController.swift */,
+				B8DFF06C217F3C5400B1B4ED /* SSRadioButton.swift */,
+			);
+			path = SSRadioButtonController;
+			sourceTree = "<group>";
+		};
+		B8DFF071217F51A500B1B4ED /* ExpertHelp */ = {
+			isa = PBXGroup;
+			children = (
+				B8DFF06F217F519400B1B4ED /* ExpertHelp.storyboard */,
+			);
+			path = ExpertHelp;
+			sourceTree = "<group>";
+		};
 		B8FD14B02177299D0019FAA0 = {
 			isa = PBXGroup;
 			children = (
@@ -109,15 +142,14 @@
 			children = (
 				B8FD14BC2177299D0019FAA0 /* AppDelegate.swift */,
 				B8FD14C02177299D0019FAA0 /* Actions.sks */,
-				B8FD14C22177299D0019FAA0 /* GameScene.swift */,
-				B8FD14F62178AFB20019FAA0 /* Texture.swift */,
-				B8FD14F82178B7FF0019FAA0 /* Character.swift */,
-				B8FD14C42177299D0019FAA0 /* GameViewController.swift */,
-				B8FD14C62177299D0019FAA0 /* Main.storyboard */,
+				B8FD1505217C3A2D0019FAA0 /* Login */,
+				B8FD1500217C38970019FAA0 /* Game */,
+				B8DFF071217F51A500B1B4ED /* ExpertHelp */,
 				B8FD14C92177299F0019FAA0 /* Assets.xcassets */,
 				B8FD14F4217739D30019FAA0 /* sprites.atlas */,
 				B8FD14CB2177299F0019FAA0 /* LaunchScreen.storyboard */,
 				B8FD14CE2177299F0019FAA0 /* Info.plist */,
+				B8DFF06A217F3C5400B1B4ED /* SSRadioButtonController */,
 			);
 			path = QuitCatIsoGame;
 			sourceTree = "<group>";
@@ -138,6 +170,30 @@
 				B8FD14E42177299F0019FAA0 /* Info.plist */,
 			);
 			path = QuitCatIsoGameUITests;
+			sourceTree = "<group>";
+		};
+		B8FD1500217C38970019FAA0 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				B8FD14C22177299D0019FAA0 /* GameScene.swift */,
+				B8FD14FA2179D9CE0019FAA0 /* PathFinder.swift */,
+				B8FD14FC2179DAA60019FAA0 /* Global.swift */,
+				B8FD14F62178AFB20019FAA0 /* Texture.swift */,
+				B8FD14F82178B7FF0019FAA0 /* Character.swift */,
+				B8FD14C42177299D0019FAA0 /* GameViewController.swift */,
+				B8FD14C62177299D0019FAA0 /* Main.storyboard */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		B8FD1505217C3A2D0019FAA0 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				B8FD1501217C39500019FAA0 /* Login.storyboard */,
+				B8FD1503217C3A250019FAA0 /* InformationSettingViewController.swift */,
+				B8FD1506217C8ACF0019FAA0 /* CigaretteAddictionViewController.swift */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,6 +302,8 @@
 			files = (
 				B8FD14C82177299D0019FAA0 /* Main.storyboard in Resources */,
 				B8FD14CA2177299F0019FAA0 /* Assets.xcassets in Resources */,
+				B8DFF070217F519400B1B4ED /* ExpertHelp.storyboard in Resources */,
+				B8FD1502217C39500019FAA0 /* Login.storyboard in Resources */,
 				B8FD14CD2177299F0019FAA0 /* LaunchScreen.storyboard in Resources */,
 				B8FD14F5217739D30019FAA0 /* sprites.atlas in Resources */,
 				B8FD14C12177299D0019FAA0 /* Actions.sks in Resources */,
@@ -274,10 +332,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8FD14C32177299D0019FAA0 /* GameScene.swift in Sources */,
+				B8DFF06D217F3C5400B1B4ED /* SSRadioButtonsController.swift in Sources */,
 				B8FD14F72178AFB20019FAA0 /* Texture.swift in Sources */,
+				B8FD14FB2179D9CE0019FAA0 /* PathFinder.swift in Sources */,
 				B8FD14F92178B7FF0019FAA0 /* Character.swift in Sources */,
+				B8DFF06E217F3C5400B1B4ED /* SSRadioButton.swift in Sources */,
+				B8FD1504217C3A250019FAA0 /* InformationSettingViewController.swift in Sources */,
 				B8FD14C52177299D0019FAA0 /* GameViewController.swift in Sources */,
 				B8FD14BD2177299D0019FAA0 /* AppDelegate.swift in Sources */,
+				B8FD1507217C8ACF0019FAA0 /* CigaretteAddictionViewController.swift in Sources */,
+				B8FD14FD2179DAA60019FAA0 /* Global.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
