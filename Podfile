@@ -12,6 +12,10 @@ target 'QuitCatIsoGame' do
   pod 'FirebaseUI/Auth'
   pod 'FirebaseUI/Google'
   pod 'SDWebImage'
+  pod 'Bolts'
+  pod 'FBSDKCoreKit'
+  pod 'FBSDKLoginKit'
+
 
   target 'QuitCatIsoGameTests' do
     inherit! :search_paths

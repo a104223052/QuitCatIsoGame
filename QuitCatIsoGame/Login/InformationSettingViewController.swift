@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import FBSDKLoginKit
+import Firebase
 
 class InformationSettingViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
 
@@ -36,8 +38,44 @@ class InformationSettingViewController: UIViewController, UIImagePickerControlle
         self.present(alert, animated: true, completion: nil)
     }
     
-
-    
+    //Login to Facebook by btn
+    func onClickLoginWithFacebook(_ sender: Any) {
+        let fbLoginManager = FBSDKLoginManager()
+        // 使用FB登入的SDK，並請求可以讀取用戶的基本資料和取得用戶email的權限
+        fbLoginManager.logOut()
+        fbLoginManager.logIn(withReadPermissions: ["public_profile", "email"], from: self) { (result, error) in
+            
+            // 登入失敗
+            if error != nil {
+                print("Failed to login: \(error?.localizedDescription)")
+                return
+            }
+            
+            // 取得登入者的token失敗
+            if FBSDKAccessToken.current() == nil {
+                print("Failed to get access token")
+                return
+            }
+            
+            print("tokenString: \(FBSDKAccessToken.current().tokenString)")
+            
+            // 擷取用戶的access token，並通過調用將其轉換為Firebase的憑證
+            let credential = FacebookAuthProvider.credential(withAccessToken: FBSDKAccessToken.current().tokenString)
+            
+            // 呼叫Firebase的API處理登入的動作
+            Auth.auth().signIn(with: credential, completion: { (user, error) in
+                
+                if error != nil {
+                    print((error?.localizedDescription)!)
+                    return
+                }
+                
+                // 使用FB登入成功
+                print("使用FB登入成功")
+            })
+            
+        }
+    }
     /*
     // MARK: - Navigation
 
